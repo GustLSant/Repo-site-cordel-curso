@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+
+
+*{
+    font-family: serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* ESTILOS DO HEADER ============== */
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 40px 0px;
+}
+
+header > h1{
+    /* font-size: 8vw; */
+    font-size: 5em;
+    margin-bottom: 20px;
+    font-variant: small-caps;
+    /* text-transform: uppercase; */
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+/* ESTILOS DO MAIN ================ */
+
+.fundo{
+    padding: 80px 30px;
+    background-color: white;
+    color: black;
+}
+
+.fundo-imagem{
+    background-color: black;
+    color: white;
+    background-position: center right;
+}
+
+#fundo-joaninha{
+    background-image: url(imagens/background001.jpg);
+}
+
+#fundo-livro{
+    background-image: url(imagens/background002.jpg);
+}
+
+.moldura-estrofe-escura{
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 20px 5px;
+    width: fit-content;
+}
+
+.estrofe > p{
+    font-size: 2em;
+    /* font-size: 3.8vw;  */
+    /*o ideal seria com Media Querry, mas por enquanto da pra fazer assim, tamanho das letras ajustado pelo tamanho horizontal da viewport*/
+    line-height: 1.65em;
+}
+
+
+/* ESTILOS DO FOOTER =============== */
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+footer > p{
+    padding: 10px;
+    text-align: center;
+}
+
+strong{
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
